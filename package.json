@@ -1,0 +1,19 @@
+{
+  "name": "node-express",
+  "version": "0.0.1",
+  "description": "Rest Api",
+  "main": "index.js",
+  "author": "Miguel Barroso",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
